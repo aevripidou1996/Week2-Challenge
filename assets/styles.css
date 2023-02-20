@@ -1,6 +1,53 @@
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 37px;
+}
 
-.about-me{
-    margin-left: 0;
+p {
+    color: green;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+}
+
+.header h1 .seo,
+.header h1 {
+    color: black;
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div,
+.ul,
+.li {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+
+a,
+ul,
+li {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.about-me {
+    margin: 100px;
+    font-size: 28px;
 }
 
 img {
@@ -10,23 +57,23 @@ img {
     margin-bottom: -9px;
 }
 
-.group1{
+.group1 {
     display: flex;
 }
 
-.group2{
+.group2 {
     display: flex;
-    
+
 }
 
-.column{
-height: 430px;
-width: 100%;
-margin: -6px;
-border: 5px solid green;
+.column {
+    height: 430px;
+    width: 100%;
+    margin: -6px;
+    border: 5px solid green;
 }
 
-.group2{
+.group2 {
     display: flex;
-    
+
 }
