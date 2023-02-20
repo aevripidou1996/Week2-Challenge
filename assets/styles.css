@@ -1,8 +1,14 @@
-*{
-    margin: 0;
-}
 
 .hero {
     background: dodgerblue;
 }
 
+.about-me{
+    margin-left: 0;
+}
+
+
+img {
+    width: 100%;
+    height: 430px;
+}
