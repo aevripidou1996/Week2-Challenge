@@ -1,12 +1,36 @@
 h2 {
     color: green;
-    text-align: center;
     font-size: 37px;
+    float: left;
+    position: relative;
+    margin-top: 145px;
 }
 
 p {
     color: green;
+    text-align: center;
+    margin-left: 95px;
 }
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.about-me{
+    width: 85%;
+    
+}
+
+
+#AboutMe{
+    width: 10%;
+    border-right: 1px solid black;
+}
+
+
+
 
 body {
     background-color: blanchedalmond;
@@ -23,7 +47,7 @@ body {
     color: black;
     display: inline-block;
     font-size: 48px;
-    
+
 }
 
 header div,
@@ -33,8 +57,8 @@ li {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 30px; 
-    
+    font-size: 30px;
+
 }
 
 
@@ -50,16 +74,37 @@ li {
 }
 
 .about-me {
-    margin: 100px;
+    margin: 15px;
     font-size: 28px;
 }
 
 img {
-    width: 100%;
+    width: 98%;
     height: 430px;
-    border: 5px solid green;
-    margin-bottom: -9px;
+    
+    margin-bottom: 18px;
+    margin-left: 10px;
 }
+
+
+
+
+.waves{
+    position: relative;  
+
+}
+ .img1 h3 {
+position: absolute;
+z-index: 2;
+color: red;
+bottom: -391px;
+border: 1px solid black;
+background-color: green;
+ }
+
+
+
+
 
 .group1 {
     display: flex;
@@ -73,8 +118,8 @@ img {
 .column {
     height: 430px;
     width: 100%;
-    margin: -6px;
-    border: 5px solid green;
+    margin-left: 180px;
+    
 }
 
 .group2 {
@@ -94,7 +139,7 @@ img {
 }
 
 
-.h2footer{
+.h2footer {
     display: inline-block;
     font-size: 48px;
     margin-left: 0px;
@@ -102,8 +147,28 @@ img {
 
 
 
-@media screen (min width:600px) {
+@media screen and (max-width: 992px) {
     .body {
-    position: fixed;
+        position: fixed;
+    }
+   ul li{
+        font-size: 23px;
+        margin-top: -9px;
+    }
+    .header h1 {
+    font-size: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 390px){
+   ul li{
+        font-size: 23px;
+        margin-top: 28px;
+        margin-left: -6px;
+    }
+    .header h1 {
+    font-size: 14px;
     }
 }
