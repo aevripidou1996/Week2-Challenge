@@ -7,7 +7,7 @@ h2 {
 }
 
 
-#photo{
+#photo {
     width: 12%;
     height: 250px;
     margin-left: 1200px;
@@ -80,11 +80,10 @@ li {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    
-    
+
+
 
 }
-
 
 a,
 ul,
@@ -96,7 +95,7 @@ li {
     margin-top: -35px;
     display: flex;
     text-decoration: underline;
-    
+
 }
 
 .about-me {
@@ -260,7 +259,7 @@ img {
 
 
 
-#footerul ul li  {
+#footerul ul li {
 
     padding-top: 194px;
     margin-right: 20px;
@@ -268,8 +267,8 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 30px;
     align-items: end;
-    
-    
+
+
 }
 
 
@@ -290,21 +289,21 @@ img {
 
     }
 
-    #photo{
+    #photo {
         width: 33%;
         height: 250px;
         margin-top: 25px;
-        margin-bottom: -53px; 
+        margin-bottom: -53px;
         margin-left: 420px;
     }
 
     .about-me p {
-    color: green;
-    text-align: center;
-    margin-left: 154px;
-    margin-top: 47px;
-    margin-bottom: 47px;
-    width: 609px;
+        color: green;
+        text-align: center;
+        margin-left: 154px;
+        margin-top: 47px;
+        margin-bottom: 47px;
+        width: 609px;
     }
 
 
@@ -328,121 +327,106 @@ img {
 
 
 
-.LED-Wall{
-     
+    .LED-Wall {
+
         border: 10px solid green;
         width: 200px;
         height: 200px;
         position: relative;
-}
+    }
 
-#LEDh2 {
-    position: absolute;
-    z-index: 2;
-    color: black;
-    top: 29px;
-    right: 577px;
-    width: 90px;
-    border: 1px solid black;
-    background-color: green;
-    font-size: 10px;
-}
-
-
-
-.Pastel-Puzzels{
-    border: 10px solid green;
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
-
-#Pastel-Puzzelsh2 {
-    position: absolute;
-    z-index: 2;
-    color: black;
-    top: 30px;
-    right: 192px;
-    width: 115px;
-    border: 1px solid black;
-    background-color: green;
-    font-size: 10px;
-}
-
-
-.Calculator{
-    border: 10px solid green;
-    width: 200px;
-    height: 200px;
-    position: relative;
-}  
-
-
-#Calculatorh2 {
-    position: absolute;
-    z-index: 2;
-    color: black;
-    top: 291px;
-    right: 577px;
-    width: 113px;
-    border: 1px solid black;
-    background-color: green;
-    font-size: 10px;
-}
-
-
-
-.Run-Buddy{
-    border: 10px solid green;
-    width: 200px;
-    height: 200px;
-    position: relative; 
-}
-
-#Run-Buddyh2 {
-    position: absolute;
-    z-index: 2;
-    color: black;
-    top: 291px;
-    right: 196px;
-    width: 109px;
-    border: 1px solid black;
-    background-color: green;
-    font-size: 10px;
-}
-
-#footerul ul li {
-    padding-top: 194px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 12px;
-    align-items: end;
-}
-
-
-
-}
-
-
-
-
-
-
-
-    .img2 h2 {
+    #LEDh2 {
         position: absolute;
         z-index: 2;
         color: black;
-        top: 1061px;
-        right: 223px;
-        width: 335px;
+        top: 29px;
+        right: 577px;
+        width: 90px;
         border: 1px solid black;
         background-color: green;
+        font-size: 10px;
     }
-            
 
-    
+
+
+    .Pastel-Puzzels {
+        border: 10px solid green;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    #Pastel-Puzzelsh2 {
+        position: absolute;
+        z-index: 2;
+        color: black;
+        top: 30px;
+        right: 192px;
+        width: 115px;
+        border: 1px solid black;
+        background-color: green;
+        font-size: 10px;
+    }
+
+
+    .Calculator {
+        border: 10px solid green;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+
+    #Calculatorh2 {
+        position: absolute;
+        z-index: 2;
+        color: black;
+        top: 291px;
+        right: 577px;
+        width: 113px;
+        border: 1px solid black;
+        background-color: green;
+        font-size: 10px;
+    }
+
+
+
+    .Run-Buddy {
+        border: 10px solid green;
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    #Run-Buddyh2 {
+        position: absolute;
+        z-index: 2;
+        color: black;
+        top: 291px;
+        right: 196px;
+        width: 109px;
+        border: 1px solid black;
+        background-color: green;
+        font-size: 10px;
+    }
+
+    #footerul ul li {
+        padding-top: 194px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 12px;
+        align-items: end;
+    }
+
+.img2 h2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 1061px;
+    right: 223px;
+    width: 335px;
+    border: 1px solid black;
+    background-color: green;
 }
-
-
+}

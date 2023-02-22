@@ -1,16 +1,35 @@
-# Week2-Challenge
+# Week 2 Challenge
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
 
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## Description
+This is my submission for my week 2 challange.
+
+In this assignnment i was tasked with building a personal portfolio with no starter code.
+
+As a result of this i had to develop my owne code and use methods that i have learned from the past 2 wekks at bootcamp.
+
+These topics include advanced CSS, flexbox, media queries & positioning.
+
+ 
+## Screenshot
+![image](https://user-images.githubusercontent.com/114223852/220617627-1a98c178-a178-4432-91d5-9a665880e34c.png)
+
+![image](https://user-images.githubusercontent.com/114223852/220617861-650568bc-c2af-46f5-ad61-7f2cdc765e40.png)
+
+
+## links
+In the link's bellow you will find 2 URL links. 
+
+The first URL will take you to my Github repository, which contanins:
+
+- The starter code for this assesment.
+- Previous git pusheshes with modified code.
+- The final code used to render this application.
+
+The second URL will once deployed will showcase the finished live application.
+
+Github URL: https://github.com/aevripidou1996/Week1-Challenge
+
+Live Application URL: https://aevripidou1996.github.io/Week1-Challenge/
+
+
