@@ -3,30 +3,45 @@ h2 {
     font-size: 37px;
     float: left;
     position: relative;
-    margin-top: 145px;
+    margin-top: 141px;
 }
 
 p {
     color: green;
     text-align: center;
-    margin-left: 95px;
+    margin-left: 274px;
+    margin-top: 47px;
+    margin-bottom: 47px;
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.about-me{
+.about-me {
     width: 85%;
     
+
 }
 
 
-#AboutMe{
+#AboutMe {
     width: 10%;
     border-right: 1px solid black;
+    
+}
+
+.mywork{
+    width: 85%;
+}
+
+#mywork{
+    margin-top: 430px;
+    width: 10%;
+    border-right: 1px solid black;
+     
 }
 
 
@@ -79,71 +94,111 @@ li {
 }
 
 img {
-    width: 98%;
+    width: 84%;
     height: 430px;
-    
     margin-bottom: 18px;
-    margin-left: 10px;
+    margin-left: 151px;
+    border: 10px solid green;
 }
 
 
 
 
-.waves{
-    position: relative;  
+.waves {
+    position: relative;
+    align-items: center;
 
 }
- .img1 h3 {
-position: absolute;
-z-index: 2;
-color: red;
-bottom: -391px;
-border: 1px solid black;
-background-color: green;
- }
+
+.img1 h3 {
+    position: absolute;
+    z-index: 2;
+    color: red;
+    bottom: -391px;
+    border: 1px solid black;
+    background-color: green;
+}
 
 
-
+.group {
+    display: grid;
+    position: relative;
+}
+    
+  
 
 
 .group1 {
     display: flex;
-}
-
-.group2 {
-    display: flex;
-
-}
-
-.column {
+    margin-top: -5px;
     height: 430px;
-    width: 100%;
-    margin-left: 180px;
+    width: 100%; 
+    justify-content: center;
+    margin-left: -74px;
     
 }
 
 .group2 {
     display: flex;
+    margin-top: 25px;
+    height: 430px;
+    width: 100%;
+    justify-content: center;
+    margin-left: -74px;
+
+}
+
+.column {
+    display: block;
+    display: flex;
+}
+
+.Calculator{
+    border: 10px solid green;
+    width: 720px;
+   height: 400px;
+
+}
+
+.Run-Buddy{
+    border: 10px solid green;
+    width: 720px;
+   height: 400px;
+
+}
+
+.LED-Wall {
+    border: 10px solid green;
+    width: 720px;
+    height: 400px;
+
+}
+
+.Pastel-Puzzels{
+    border: 10px solid green;
+    width: 720px;
+   height: 400px;
 
 }
 
 
 .footer ul li {
-    color: black;
-    text-decoration: none;
-    margin-left: 25px;
-    position: relative;
-    margin-top: -35px;
-    display: flex;
+   
 
 }
 
-
-.h2footer {
-    display: inline-block;
-    font-size: 48px;
-    margin-left: 0px;
+.footerul ul li{
+   display: table-cell;
+   color: black;
+   text-decoration: none;
+   margin-left: 25px;
+   position: relative;
+   margin-top: 52px;
+  
 }
+
+
+
 
 
 
@@ -151,24 +206,27 @@ background-color: green;
     .body {
         position: fixed;
     }
-   ul li{
+
+    ul li {
         font-size: 23px;
         margin-top: -9px;
     }
+
     .header h1 {
-    font-size: 30px;
+        font-size: 30px;
     }
-    
+
 }
 
 
-@media screen and (max-width: 390px){
-   ul li{
-        font-size: 23px;
-        margin-top: 28px;
-        margin-left: -6px;
+@media screen and (max-width: 390px) {
+    ul li {
+        font-size: 7px;
+        margin-top: 19px;
+        margin-left: -35px;
     }
+
     .header h1 {
-    font-size: 14px;
+        font-size: 14px;
     }
 }
