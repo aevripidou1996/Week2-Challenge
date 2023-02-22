@@ -113,20 +113,73 @@ img {
 
 }
 
-.img1 h3 {
+.img1 h2 {
     position: absolute;
     z-index: 2;
     color: red;
-    top: 803px;
-    right: 700px;
-    bottom: 25px;
-    width: 250px;
-height: 30px;
-text-align: center;
-align-content: baseline;
+    top: 650px;
+    right: 1000px;
+    width: 334px;
+    border: 1px solid black;
+    background-color: green; 
+}
+
+
+#LEDh2{
+    position: absolute;
+    z-index: 2;
+    color: red;
+    top: 188px;
+    right: 1400px;
+    width: 320px;
+    border: 1px solid black;
+    background-color: green;
+
+}
+
+#Pastel-Puzzelsh2{
+    position: absolute;
+    z-index: 2;
+    color: red;
+    top: 188px;
+    right: 460px;
+    width: 420px;
+    border: 1px solid black;
+    background-color: green;
+    
+}
+
+#Calculatorh2{
+    position: absolute;
+    z-index: 2;
+    color: red;
+    top: 650px;
+    right: 1380px;
+    width: 420px;
     border: 1px solid black;
     background-color: green;
 }
+
+
+#Run-Buddyh2{
+    position: absolute;
+    z-index: 2;
+    color: red;
+    top: 650px;
+    right: 460px;
+    width: 420px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
 
 
 .group {
@@ -174,6 +227,7 @@ align-content: baseline;
     border: 10px solid green;
     width: 720px;
    height: 400px;
+   position: relative;
 
 }
 
@@ -183,25 +237,6 @@ align-content: baseline;
    height: 400px;
 
 }
-
-
-.img1 h3 {
-    position: absolute;
-    z-index: 2;
-    color: red;
-    top: 803px;
-    right: 700px;
-    bottom: 25px;
-    width: 250px;
-height: 30px;
-text-align: center;
-align-content: baseline;
-    border: 1px solid black;
-    background-color: green;
-}
-
-
-
 
 .LED-Wall {
     border: 10px solid green;
@@ -215,6 +250,7 @@ align-content: baseline;
     border: 10px solid green;
     width: 720px;
    height: 400px;
+   position: relative;
 
 }
 
