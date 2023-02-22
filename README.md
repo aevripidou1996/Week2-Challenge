@@ -10,6 +10,8 @@ As a result of this i had to develop my owne code and use methods that i have le
 
 These topics include advanced CSS, flexbox, media queries & positioning.
 
+The original page was created with 1918 x 1684 resolution and the media query has been set to (max-width: 992px).
+
  
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/114223852/220617627-1a98c178-a178-4432-91d5-9a665880e34c.png)
