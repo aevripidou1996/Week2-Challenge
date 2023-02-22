@@ -30,8 +30,8 @@ The first URL will take you to my Github repository, which contanins:
 
 The second URL will once deployed will showcase the finished live application.
 
-Github URL: https://github.com/aevripidou1996/Week1-Challenge
+Github URL: https://github.com/aevripidou1996/Week2-Challenge
 
-Live Application URL: https://aevripidou1996.github.io/Week1-Challenge/
+Live Application URL: https://aevripidou1996.github.io/Week2-Challenge/
 
 
