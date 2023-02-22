@@ -278,27 +278,171 @@ img {
         position: fixed;
     }
 
-    ul li {
-        font-size: 23px;
-        margin-top: 35px;
-
-    }
-
     .header h1 {
         font-size: 30px;
+        margin-top: -58px;
     }
 
-}
 
-
-@media screen and (max-width: 390px) {
     ul li {
-        font-size: 7px;
-        margin-top: 19px;
-        margin-left: -35px;
+        font-size: 23px;
+        margin-top: -12px;
+
     }
 
-    .header h1 {
-        font-size: 14px;
+    #photo{
+        width: 33%;
+        height: 250px;
+        margin-top: 25px;
+        margin-bottom: -53px; 
+        margin-left: 420px;
     }
+
+    .about-me p {
+    color: green;
+    text-align: center;
+    margin-left: 154px;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    width: 609px;
+    }
+
+
+    img {
+        width: 67%;
+        height: 430px;
+        margin-bottom: 22px;
+        margin-left: 151px;
+        border: 10px solid green;
+        margin-left: 143px;
+    }
+
+    .group2 {
+        display: flex;
+        margin-top: -171px;
+        height: 430px;
+        width: 100%;
+        justify-content: center;
+        margin-left: -74px;
+    }
+
+
+
+.LED-Wall{
+     
+        border: 10px solid green;
+        width: 200px;
+        height: 200px;
+        position: relative;
 }
+
+#LEDh2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 29px;
+    right: 577px;
+    width: 90px;
+    border: 1px solid black;
+    background-color: green;
+    font-size: 10px;
+}
+
+
+
+.Pastel-Puzzels{
+    border: 10px solid green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#Pastel-Puzzelsh2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 30px;
+    right: 192px;
+    width: 115px;
+    border: 1px solid black;
+    background-color: green;
+    font-size: 10px;
+}
+
+
+.Calculator{
+    border: 10px solid green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}  
+
+
+#Calculatorh2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 291px;
+    right: 577px;
+    width: 113px;
+    border: 1px solid black;
+    background-color: green;
+    font-size: 10px;
+}
+
+
+
+.Run-Buddy{
+    border: 10px solid green;
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}
+
+#Run-Buddyh2 {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 291px;
+    right: 196px;
+    width: 109px;
+    border: 1px solid black;
+    background-color: green;
+    font-size: 10px;
+}
+
+#footerul ul li {
+    padding-top: 194px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    align-items: end;
+}
+
+
+
+}
+
+
+
+
+
+
+
+    .img2 h2 {
+        position: absolute;
+        z-index: 2;
+        color: black;
+        top: 1061px;
+        right: 223px;
+        width: 335px;
+        border: 1px solid black;
+        background-color: green;
+    }
+            
+
+    
+}
+
+
